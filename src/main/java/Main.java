@@ -42,9 +42,6 @@ public class Main {
 
             return finalList;
 
-            /*The function above has a Big-O notation of O(n) at the worst
-            But it does appear that changing to use a HashMap instead of an arrayList may be faster @ O(1) consistently
-             */
     }
 }
 
