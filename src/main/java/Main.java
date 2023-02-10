@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.*;
 
 public class Main {
@@ -22,8 +24,8 @@ public class Main {
         num2.add(80);
         num2.add(1);
 
-        //Calling the function
-        theIntersection(num1, num2);
+        //Calling the function & displaying the answer
+        System.out.println(theIntersection(num1, num2));
 
         }
 
@@ -38,8 +40,11 @@ public class Main {
                 }
             }
 
-            System.out.println(finalList);
             return finalList;
+
+            /*The function above has a Big-O notation of O(n) at the worst
+            But it does appear that changing to use a HashMap instead of an arrayList may be faster @ O(1) consistently
+             */
     }
 }
 
